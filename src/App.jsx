@@ -29,8 +29,8 @@ function App() {
 
       <h2>Title</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam labore nemo harum beatae officia consequuntur optio laborum obcaecati aspernatur quos accusantium nam, voluptates omnis ipsam officiis quidem possimus facere praesentium.</p>
-      <h6>Date created</h6>
-      <h6>Date updated</h6>
+      <h6>Date created</h6> {/* This will dissappear once the note is updated this will become updated instead*/}
+      <h6>Date updated</h6>  {/* This will not appear if the updated date on db is empty*/}
     </>
   )
 }
