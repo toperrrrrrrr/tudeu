@@ -22,11 +22,15 @@ function App() {
 
       <form action="">
         <input type="text" /> <br />
-        <input type="rich text" /> <br />
+        <input type="text" /> <br />
         <input type="button" value="Submit" />
       </form>
 
 
+      <h2>Title</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam labore nemo harum beatae officia consequuntur optio laborum obcaecati aspernatur quos accusantium nam, voluptates omnis ipsam officiis quidem possimus facere praesentium.</p>
+      <h6>Date created</h6>
+      <h6>Date updated</h6>
     </>
   )
 }
